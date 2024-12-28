@@ -39,7 +39,7 @@ RUN apt update && \
     pip install --upgrade pip
 
 # Clone the nodepay-referral repository
-RUN git clone hhttps://github.com/juliwicks/nodepay-referral
+RUN git clone https://github.com/juliwicks/nodepay-referral
 
 # Set the working directory to the cloned repository
 WORKDIR /app/nodepay-referral

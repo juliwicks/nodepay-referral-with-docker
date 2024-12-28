@@ -45,7 +45,7 @@ RUN git clone https://github.com/juliwicks/nodepay-referral
 WORKDIR /app/nodepay-referral
 
 # Install each Python package one by one
-RUN pip install asyncio requests colorama faker capmonster-python twocaptcha anticaptchaofficial python-anticaptcha 2captcha-python
+RUN pip install asyncio requests colorama faker capmonster-python twocaptcha anticaptchaofficial python-anticaptcha 2captcha-python pysocks
 
 # Command to run the startref.py script
 CMD ["python3", "startref.py"]

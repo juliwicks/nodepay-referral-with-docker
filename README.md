@@ -16,7 +16,7 @@ You can go here if you don't want to use Docker: https://github.com/juliwicks/no
 Run the following command to download and run the setup script:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/juliwicks/nodepay-referral-with-docker/refs/heads/main/start.sh -o start.sh && chmod +x start.sh && ./start.sh
+curl -sSL https://raw.githubusercontent.com/juliwicks/nodepay-referral-with-docker/refs/heads/main/start.sh && chmod +x start.sh && ./start.sh
 ```
 ## The script will:
 
